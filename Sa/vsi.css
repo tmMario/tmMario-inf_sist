@@ -1,0 +1,132 @@
+body {
+  	font-family: 'Roboto slab', sans-serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    quotes: none;
+
+}
+.holova{
+  height: 16px;
+  background-color: lightgray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 5px 0 lightgray;
+  z-index: 999;
+}
+.teho{
+  margin: 0
+}
+.container {
+    width: 95%;
+    height: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.section {
+    height: 25vh;
+    padding-top: 4px;
+    background: rgb(147,147,147);
+    background: linear-gradient(0deg, rgba(147,147,147,1) 0%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+  .S_U{
+    color: blue;
+    font-size: 60px;
+    font-family: sans-serif;
+  }
+
+  .S_Udiv{
+  position: relative;
+  height: 90px;
+  text-align: inherit;
+  }
+
+  .n_k,.zag{
+    font-size: 30px;
+    font-family: monospace;
+  }
+
+
+  .main_a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .pro_nas_text{
+    text-align: center;
+    width: 600px;
+    background-color: rgba(213,189,26,0.7259278711484594);
+    border: 1mm ridge rgba(255,254,165,0.29735644257703087);
+    border-radius: 30%;
+  }
+
+  .our_r,.our_c{
+    display: flex;
+    align-items: stretch;
+  	justify-content: center;
+    text-align: center;
+
+
+  }
+
+  .mont{
+    margin: 0 auto;
+    display: block;
+  	text-align: center;
+  }
+
+  .img{
+    background-color: lightyellow;
+    border: 3px outset lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+  }
+
+  div {
+   padding: 18px;
+   display: block;
+
+  }
+  .text{
+    text-align: center;
+    width:230px;
+    border: 1mm ridge rgba(255,254,165,0.29735644257703087);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+  }
+
+  .num{
+    background-color:rgba(213,189,26,0.7259278711484594);
+    border: 1mm ridge rgba(255,254,165,0.29735644257703087);
+    border-radius: 20%;
+    width: 80px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+  }
+
+  ul {
+      list-style: none;
+      display: block;
+  }
